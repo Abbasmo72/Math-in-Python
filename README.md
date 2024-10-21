@@ -5,7 +5,24 @@
 <img alt="Gif" src="https://cdn.dribbble.com/users/31818/screenshots/1891002/math.gif" height="150px" width="500px">
 </div>
 <hr>
-Mathematics in Python plays a crucial role in computations and solving scientific or engineering problems. Python provides built-in functions and libraries that make it easy to perform a wide range of mathematical operations, from basic arithmetic to more complex calculations. For simple operations, one can use common operators like addition, subtraction, multiplication, and division. Additionally, Python has libraries such as math for general mathematical functions, numpy for vector and matrix operations, and scipy for advanced scientific computations. These capabilities are extensively used in fields like data analysis, machine learning, and modeling, making Python a favorite tool among data scientists and engineers due to its simplicity and computational power.<br>
+Mathematics in Python plays a crucial role in computations and solving scientific or engineering problems. Python provides built-in functions and libraries that make it easy to perform a wide range of mathematical operations, from basic arithmetic to more complex calculations. For simple operations, one can use common operators like addition, subtraction, multiplication, and division. Additionally, Python has libraries such as math for general mathematical functions, numpy for vector and matrix operations, and scipy for advanced scientific computations. These capabilities are extensively used in fields like data analysis, machine learning, and modeling, making Python a favorite tool among data scientists and engineers due to its simplicity and computational power.
+
+## Install math-related libraries
+1. For Python (using pip):
+```bash
+pip install numpy scipy sympy matplotlib
+```
+- <b>NumPy:</b> For matrix operations and numerical computations
+- <b>SciPy:</b> For scientific computing and advanced mathematics
+- <b>SymPy:</b> For symbolic algebra
+- <b>Matplotlib:</b> For plotting graphs
+2. For Ubuntu/Debian (system libraries related to math):
+```bash
+sudo apt-get install libgsl-dev liblapack-dev libblas-dev
+```
+- <b>GSL:</b> GNU Scientific Library for mathematical computations
+- <b>LAPACK/BLAS:</b> Libraries for solving linear equations and other math tasks
+  
 <details>
 <summary><b>More</b></summary>
   
