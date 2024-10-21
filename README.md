@@ -97,3 +97,6 @@ else:
 ```
 </details>
 <hr>
+## License
+
+MIT
