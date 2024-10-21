@@ -80,7 +80,7 @@ Next, the program takes an input from the user and passes it to the ispraime fun
 
 ## Python Code
 ```python
-def ispraime(n):
+def isprime(n):
     if n <= 1:
         return False
     for x in range(2, n):
@@ -90,7 +90,7 @@ def ispraime(n):
         return True
     
 n = int(input('Enter The Number: '))
-if ispraime(n):
+if isprime(n):
     print(f'{n} is prime')
 else:
     print(f'{n} not prime')
