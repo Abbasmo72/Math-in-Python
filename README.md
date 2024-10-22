@@ -115,7 +115,7 @@ else:
 </details>
 <hr>
 
-2. [Prime Numbers 0- 99](MathPython/PrimeNumber0-99.py): This Python code defines two functions: ispraime(n) and list_primes(). The ispraime() function checks if a given number n is prime by ensuring it's greater than 1 and has no divisors other than 1 and itself. The list_primes() function iterates through numbers from 0 to 99 and uses ispraime() to determine and print which numbers are prime. When list_primes() is executed, it displays all prime numbers below 100.
+2. [Prime Numbers 0- 99](MathPython/PrimeNumber0-99.py) : This Python code defines two functions: ispraime(n) and list_primes(). The ispraime() function checks if a given number n is prime by ensuring it's greater than 1 and has no divisors other than 1 and itself. The list_primes() function iterates through numbers from 0 to 99 and uses ispraime() to determine and print which numbers are prime. When list_primes() is executed, it displays all prime numbers below 100.
    
 <details>
 <summary><b>More</b></summary>
@@ -125,6 +125,20 @@ else:
    - <b>Check input number:</b> If n is less than or equal to 1, it returns False because it's not prime.
    - <b>Check divisibility:</b> If any number between 2 and n-1 divides n without a remainder, it returns False (indicating n is not prime).
    - <b>Return result:</b> If no numbers divide n, the function returns True (indicating n is prime).
+2. Function list_primes():
+  - <b>Iterating from 0 to 99:</b> This function loops through numbers from 0 to 99.
+  - <b>Call ispraime():</b> For each number, it checks whether it is prime or not.
+  - <b>Print prime numbers:</b> If a number is prime, it prints the number.
+3. Final Execution:
+  The list_primes() function is called, printing all prime numbers less than 100.
+
+
+
+
+
+
+  
+
 
 </details>
 <hr>
