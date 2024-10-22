@@ -81,41 +81,7 @@ In conclusion, Python’s versatility and extensive library support make it a hi
 </details>
 <hr>
 
-1. [Prime Numbers](MathPython/PrimeNumbers.py) : A prime number is a natural number greater than 1 that has only two divisors: 1 and itself. In other words, a prime number is divisible only by 1 and itself and cannot be expressed as the product of two smaller numbers. Prime numbers are crucial in number theory and have modern applications in fields like cryptography. Examples of prime numbers include 2, 3, 5, and 7. These numbers are often referred to as the "building blocks" of all natural numbers due to their unique properties.
-<details>
-<summary><b>More</b></summary>
-
-This code defines a function called ispraime that checks whether a number is prime. The function first checks if the input number is less than or equal to 1, in which case it returns False because numbers less than 2 are not prime. Then, it uses a for loop to check all divisors from 2 to one less than the number. If the number is divisible by any of these values, it is not prime, and the function returns False. If no divisors are found, the function returns True, indicating the number is prime.
-
-Next, the program takes an input from the user and passes it to the ispraime function. If the number is prime, it prints "prime"; otherwise, it prints "not prime."
-
-## How it works:
-1. The function receives a number.
-2. If the number is less than 2, it is not prime.
-3. For numbers greater than 1, it checks if the number is divisible by any number between 2 and itself minus one.
-4. If divisible, the number is not prime; otherwise, it is prime
-
-## Python Code
-```python
-def isprime(n):
-    if n <= 1:
-        return False
-    for x in range(2, n):
-        if n % x == 0:
-            return False
-    else:
-        return True
-    
-n = int(input('Enter The Number: '))
-if isprime(n):
-    print(f'{n} is prime')
-else:
-    print(f'{n} not prime')
-```
-</details>
-<hr>
-
-2. [Prime Numbers 0- 99](MathPython/PrimeNumber0-99.py) : This Python code defines two functions: ispraime(n) and list_primes(). The ispraime() function checks if a given number n is prime by ensuring it's greater than 1 and has no divisors other than 1 and itself. The list_primes() function iterates through numbers from 0 to 99 and uses ispraime() to determine and print which numbers are prime. When list_primes() is executed, it displays all prime numbers below 100.
+1. [Prime Numbers 0- 99](MathPython/PrimeNumber0-99.py) : This Python code defines two functions: ispraime(n) and list_primes(). The ispraime() function checks if a given number n is prime by ensuring it's greater than 1 and has no divisors other than 1 and itself. The list_primes() function iterates through numbers from 0 to 99 and uses ispraime() to determine and print which numbers are prime. When list_primes() is executed, it displays all prime numbers below 100.
    
 <details>
 <summary><b>More</b></summary>
@@ -151,6 +117,41 @@ def list_primes():
 
 list_primes()
 ```
+</details>
+<hr>
+
+2. [Prime Numbers](MathPython/PrimeNumbers.py) : A prime number is a natural number greater than 1 that has only two divisors: 1 and itself. In other words, a prime number is divisible only by 1 and itself and cannot be expressed as the product of two smaller numbers. Prime numbers are crucial in number theory and have modern applications in fields like cryptography. Examples of prime numbers include 2, 3, 5, and 7. These numbers are often referred to as the "building blocks" of all natural numbers due to their unique properties.
+<details>
+<summary><b>More</b></summary>
+
+This code defines a function called ispraime that checks whether a number is prime. The function first checks if the input number is less than or equal to 1, in which case it returns False because numbers less than 2 are not prime. Then, it uses a for loop to check all divisors from 2 to one less than the number. If the number is divisible by any of these values, it is not prime, and the function returns False. If no divisors are found, the function returns True, indicating the number is prime.
+
+Next, the program takes an input from the user and passes it to the ispraime function. If the number is prime, it prints "prime"; otherwise, it prints "not prime."
+
+## How it works:
+1. The function receives a number.
+2. If the number is less than 2, it is not prime.
+3. For numbers greater than 1, it checks if the number is divisible by any number between 2 and itself minus one.
+4. If divisible, the number is not prime; otherwise, it is prime
+
+## Python Code
+```python
+def isprime(n):
+    if n <= 1:
+        return False
+    for x in range(2, n):
+        if n % x == 0:
+            return False
+    else:
+        return True
+    
+n = int(input('Enter The Number: '))
+if isprime(n):
+    print(f'{n} is prime')
+else:
+    print(f'{n} not prime')
+```
+
 </details>
 <hr>
 
