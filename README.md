@@ -119,7 +119,12 @@ else:
    
 <details>
 <summary><b>More</b></summary>
-## 
+  
+## How the Code Works:
+1. Function ispraime(n):
+   - <b>Check input number:</b> If n is less than or equal to 1, it returns False because it's not prime.
+   - <b>Check divisibility:</b> If any number between 2 and n-1 divides n without a remainder, it returns False (indicating n is not prime).
+   - <b>Return result:</b> If no numbers divide n, the function returns True (indicating n is prime).
 
 </details>
 <hr>
