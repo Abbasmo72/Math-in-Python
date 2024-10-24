@@ -48,6 +48,7 @@ This module extends Python’s native capabilities, making it suitable for vario
 
 ## Scientific Computations with NumPy
 While the math module handles simple mathematical functions, more advanced computations—especially those involving large datasets or multidimensional arrays—are made possible with the NumPy library. NumPy is essential for tasks like matrix operations, Fourier transforms, and random number generation. It is also the backbone of most scientific and mathematical programming in Python. Here’s an example of creating an array and performing basic operations with NumPy:
+
 ```python
 import numpy as np
 array = np.array([1, 2, 3, 4])
