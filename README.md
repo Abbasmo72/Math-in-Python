@@ -157,7 +157,7 @@ else:
 </details>
 <hr>
 
-3. [Fibonacci Sequence](MathPython/fibonacci_up_to_1000.py) :
+3. [Fibonacci Sequence](MathPython/fibonacci_up_to_1000.py) : The Fibonacci sequence is a series of numbers in which each number is the sum of the two preceding ones, starting from 0 and 1. It goes like this: 0, 1, 1, 2, 3, 5, 8, and so on. This sequence has a wide range of applications in mathematics, computer science, biology, and even art, due to its appearance in various natural patterns and structures. The sequence is named after Italian mathematician Leonardo Fibonacci, who introduced it to Western mathematics in his 13th-century book Liber Abaci. Each number in the sequence is called a "Fibonacci number," and these numbers have unique mathematical properties.
 
 <details>
 <summary><b>More</b></summary>
