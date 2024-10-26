@@ -85,7 +85,7 @@ In conclusion, Python’s versatility and extensive library support make it a hi
 
 ## Prime Numbers
 
-1. [Prime Numbers 0- 99](Math_in_Python/PrimeNumber0-99.py) : This Python code defines two functions: ispraime(n) and list_primes(). The ispraime() function checks if a given number n is prime by ensuring it's greater than 1 and has no divisors other than 1 and itself. The list_primes() function iterates through numbers from 0 to 99 and uses ispraime() to determine and print which numbers are prime. When list_primes() is executed, it displays all prime numbers below 100.
+1. [Prime Numbers 0- 99](Math_in_Python/PrimeNumbers/PrimeNumber0-99.py) : This Python code defines two functions: ispraime(n) and list_primes(). The ispraime() function checks if a given number n is prime by ensuring it's greater than 1 and has no divisors other than 1 and itself. The list_primes() function iterates through numbers from 0 to 99 and uses ispraime() to determine and print which numbers are prime. When list_primes() is executed, it displays all prime numbers below 100.
    
 <details>
 <summary><b>More</b></summary>
