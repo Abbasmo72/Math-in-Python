@@ -159,6 +159,18 @@ else:
 
 3. [Fibonacci Sequence](MathPython/fibonacci_up_to_1000.py) :
 
+<details>
+<summary><b>More</b></summary>
+
+
+
+## Python Code
+```python
+
+```
+
+</details>
+<hr>
 
 ## License
 
