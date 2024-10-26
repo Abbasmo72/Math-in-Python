@@ -89,15 +89,15 @@ In conclusion, Python’s versatility and extensive library support make it a hi
 <summary><b>More</b></summary>
   
 ## How the Code Works:
-1. Function ispraime(n):
+1. <b>Function ispraime(n):</b>
    - <b>Check input number:</b> If n is less than or equal to 1, it returns False because it's not prime.
    - <b>Check divisibility:</b> If any number between 2 and n-1 divides n without a remainder, it returns False (indicating n is not prime).
    - <b>Return result:</b> If no numbers divide n, the function returns True (indicating n is prime).
-2. Function list_primes():
+2. <b>Function list_primes():</b>
   - <b>Iterating from 0 to 99:</b> This function loops through numbers from 0 to 99.
   - <b>Call ispraime():</b> For each number, it checks whether it is prime or not.
   - <b>Print prime numbers:</b> If a number is prime, it prints the number.
-3. Final Execution:
+3. <b>Final Execution:</b>
   The list_primes() function is called, printing all prime numbers less than 100.
 
 ## Python Code
@@ -134,7 +134,7 @@ Next, the program takes an input from the user and passes it to the ispraime fun
 1. The function receives a number.
 2. If the number is less than 2, it is not prime.
 3. For numbers greater than 1, it checks if the number is divisible by any number between 2 and itself minus one.
-4. If divisible, the number is not prime; otherwise, it is prime
+4. If divisible, the number is not prime; otherwise, it is prime.
 
 ## Python Code
 ```python
