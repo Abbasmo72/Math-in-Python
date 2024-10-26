@@ -189,6 +189,44 @@ fibonacci_up_to_1000()
 </details>
 <hr>
 
+4. [Fibonacci Check](MathPython/fibonacci_checker.py) : The code above is a simple program to check if a number is a Fibonacci number. It defines a function, is_perfect_square, which checks if a given number is a perfect square. This is useful for identifying Fibonacci numbers because of a specific mathematical property they hold. The main function, is_fibonacci, then uses a "Fibonacci condition" to determine if the input number is a Fibonacci number. According to this condition, a number n is a Fibonacci number if either 5 * n * n + 4 or 5 * n * n - 4 is a perfect square. Finally, the program prompts the user to input a number, and it uses the is_fibonacci function to display whether or not the number is part of the Fibonacci sequence.
+
+<details>
+<summary><b>More</b></summary>
+  
+## How it works:
+1. 
+
+## Python Code
+```python
+import math
+
+# Function to check if a number is a perfect square
+def is_perfect_square(x):
+    s = int(math.sqrt(x))
+    return s * s == x
+
+# Function to check if the input number is a Fibonacci number
+def is_fibonacci(n):
+    # Checking Fibonacci condition
+    return is_perfect_square(5 * n * n + 4) or is_perfect_square(5 * n * n - 4)
+
+# Input a number from the user
+num = int(input("Enter a number: "))
+
+# Displaying the result
+if is_fibonacci(num):
+    print(f"{num} is a Fibonacci number.")
+else:
+    print(f"{num} is not a Fibonacci number.")
+```
+
+</details>
+<hr>
+ 
+
+
+
 ## License
 
 MIT
