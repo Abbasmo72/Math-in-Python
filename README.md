@@ -156,7 +156,8 @@ else:
 
 </details>
 <hr>
-3. [Fibonacci Sequence](MathPython/Python.py) :
+
+3. [Fibonacci Sequence](MathPython/fibonacci_up_to_1000.py) :
 
 
 ## License
