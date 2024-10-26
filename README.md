@@ -161,7 +161,12 @@ else:
 
 <details>
 <summary><b>More</b></summary>
+  
+## The History and Significance of Fibonacci Numbers
 
+The history of Fibonacci numbers dates back to the 13th century when an Italian mathematician named Leonardo Fibonacci introduced this sequence in his famous book Liber Abaci. In the book, Fibonacci used the sequence to solve a problem related to the population growth of rabbits. In this sequence, each number is the sum of the two preceding ones, starting from 0 and 1. The series progresses as follows: 0, 1, 1, 2, 3, 5, 8, and so on. Over time, the significance of the Fibonacci sequence became widely recognized due to its applications in natural patterns and biological formations. Patterns like the golden ratio in plants, animals, and even galaxies correspond with the Fibonacci sequence, making Fibonacci and his sequence a fundamental part of mathematical history. This sequence has also influenced fields like architecture, music, and art, serving as a foundational structural and geometric framework in the world.
+
+## How it works:
 
 
 ## Python Code
