@@ -167,7 +167,11 @@ else:
 The history of Fibonacci numbers dates back to the 13th century when an Italian mathematician named Leonardo Fibonacci introduced this sequence in his famous book Liber Abaci. In the book, Fibonacci used the sequence to solve a problem related to the population growth of rabbits. In this sequence, each number is the sum of the two preceding ones, starting from 0 and 1. The series progresses as follows: 0, 1, 1, 2, 3, 5, 8, and so on. Over time, the significance of the Fibonacci sequence became widely recognized due to its applications in natural patterns and biological formations. Patterns like the golden ratio in plants, animals, and even galaxies correspond with the Fibonacci sequence, making Fibonacci and his sequence a fundamental part of mathematical history. This sequence has also influenced fields like architecture, music, and art, serving as a foundational structural and geometric framework in the world.
 
 ## How it works:
-
+1. <b>Function Definition:</b> fibonacci_up_to_1000() is defined to generate Fibonacci numbers up to 1000.
+2. <b>Initial Values:</b> Inside the function, the first two numbers of the Fibonacci sequence are set, a as 0 and b as 1.
+3. <b>Loop Execution:</b> The while loop runs as long as a is less than or equal to 1000. Within the loop, it prints the current value of a, which is a Fibonacci number.
+4. <b>Update of Variables:</b> After each print, the values of a and b are updated to move to the next Fibonacci number by setting a to b and b to a + b.
+5. <b>Function Call:</b> Calling fibonacci_up_to_1000() runs the loop and outputs all Fibonacci numbers from 0 up to 1000 in a single line.
 
 ## Python Code
 ```python
