@@ -197,7 +197,10 @@ fibonacci_up_to_1000()
 This process efficiently confirms Fibonacci membership without needing to generate a sequence up to the number.
 
 ## How it works:
-1. 
+1. Check if a Number is a Perfect Square: The function is_perfect_square checks if a number is a perfect square by taking the square root of x, converting it to an integer, and checking if squaring this integer gives back the original number x. If it does, x is a perfect square.
+2. Determine if a Number is Fibonacci: The function is_fibonacci determines whether a number n is a Fibonacci number. It uses a mathematical property where a number n is in the Fibonacci sequence if either 5 * n * n + 4 or 5 * n * n - 4 is a perfect square. This condition is derived from mathematical characteristics unique to Fibonacci numbers.
+3. User Input: The program prompts the user to enter a number for testing, storing it as num.
+4. Check and Display Result: Finally, the program checks if num is a Fibonacci number using the is_fibonacci function. It then prints the result, confirming whether num is or is not a Fibonacci number based on the function's output.
 
 ## Python Code
 ```python
