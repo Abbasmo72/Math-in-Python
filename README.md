@@ -232,7 +232,8 @@ else:
 <hr>
 
 ## Capri numbers
-1. [Fibonacci Check](Math_in_Python/FibonacciSequence/fibonacci_checker.py) : 
+1. [Capri Numbers 0-1000](Math_in_Python/CapriNumbers/CapriNumbers0_1000.py) :
+   
 <details>
 <summary><b>More</b></summary>
 
