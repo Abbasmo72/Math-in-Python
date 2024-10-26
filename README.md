@@ -193,7 +193,9 @@ fibonacci_up_to_1000()
 
 <details>
 <summary><b>More</b></summary>
-  
+
+This process efficiently confirms Fibonacci membership without needing to generate a sequence up to the number.
+
 ## How it works:
 1. 
 
