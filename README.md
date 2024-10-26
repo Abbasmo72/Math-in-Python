@@ -230,9 +230,39 @@ else:
 
 </details>
 <hr>
- 
+
+## Capri numbers
+1. [Fibonacci Check](Math_in_Python/FibonacciSequence/fibonacci_checker.py) : 
+<details>
+<summary><b>More</b></summary>
 
 
+## How it works:
+
+
+## Python Code
+```python
+
+```
+
+</details>
+<hr>
+
+2. [Fibonacci Check](Math_in_Python/FibonacciSequence/fibonacci_checker.py) : 
+<details>
+<summary><b>More</b></summary>
+
+
+## How it works:
+
+
+## Python Code
+```python
+
+```
+
+</details>
+<hr>
 
 ## License
 
