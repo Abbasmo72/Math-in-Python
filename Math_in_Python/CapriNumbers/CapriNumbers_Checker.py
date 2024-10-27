@@ -1,4 +1,4 @@
-def is_kaprekar(n):
+def is_Capri(n):
     # Calculate the square of the number
     square = n ** 2
     str_square = str(square)
@@ -14,15 +14,15 @@ def is_kaprekar(n):
     left_part = int(left_part)
     right_part = int(right_part)
     
-    # Check the Kaprekar condition
+    # Check the Capri condition
     return left_part + right_part == n
 
 # Get user input
 try:
-    number = int(input("Enter a number to check if it is a Kaprekar number: "))
-    if is_kaprekar(number):
-        print(f"{number} is a Kaprekar number.")
+    number = int(input("Enter a number to check if it is a Capri number: "))
+    if is_Capri(number):
+        print(f"{number} is a Capri number.")
     else:
-        print(f"{number} is not a Kaprekar number.")
+        print(f"{number} is not a Capri number.")
 except ValueError:
     print("Please enter a valid integer.")
