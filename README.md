@@ -235,7 +235,7 @@ else:
 What are Kaprekar Numbers?
 Kaprekar numbers are special numbers for which, when squared, the resulting number can be split into two parts that, when summed, equal the original number.
  
-1. [Kaprekar Numbers 0-1000](Math_in_Python/CapriNumbers/KaprekarNumbers0_1000.py) : This program identifies and displays Kaprekar numbers from 0 to 1000. The is_kaprekar function is used to check if a given number is a Kaprekar number. The function squares the input number, then splits this square into two parts. If the sum of these two parts equals the original number, the function returns True, marking it as a Kaprekar number. The program then collects all such numbers within the specified range and prints them as output.
+1. [Kaprekar Numbers 0-1000](Math_in_Python/KaprekarNumbers/KaprekarNumbers0_1000.py) : This program identifies and displays Kaprekar numbers from 0 to 1000. The is_kaprekar function is used to check if a given number is a Kaprekar number. The function squares the input number, then splits this square into two parts. If the sum of these two parts equals the original number, the function returns True, marking it as a Kaprekar number. The program then collects all such numbers within the specified range and prints them as output.
    
 <details>
 <summary><b>More</b></summary>
@@ -277,7 +277,7 @@ print("Kaprekar numbers from 0 to 1000:", kaprekar_numbers)
 </details>
 <hr>
 
-2. [Kaprekar Numbers Checker](Math_in_Python/CapriNumbers/KaprekarNumbers_Checker.py) : This program takes a user input and checks if it is a Kaprekar number. The is_kaprekar function squares the input number, splits the square into two parts, and checks if the sum of these two parts equals the original number. If so, the number is identified as a Kaprekar number, and a corresponding message is displayed. The program also handles invalid inputs by showing an error message if the input is not a valid integer.
+2. [Kaprekar Numbers Checker](Math_in_Python/CKaprekarNumbers/KaprekarNumbers_Checker.py) : This program takes a user input and checks if it is a Kaprekar number. The is_kaprekar function squares the input number, splits the square into two parts, and checks if the sum of these two parts equals the original number. If so, the number is identified as a Kaprekar number, and a corresponding message is displayed. The program also handles invalid inputs by showing an error message if the input is not a valid integer.
 
 <details>
 <summary><b>More</b></summary>
