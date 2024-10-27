@@ -231,15 +231,22 @@ else:
 </details>
 <hr>
 
-## Capri numbers
-1. [Capri Numbers 0-1000](Math_in_Python/CapriNumbers/CapriNumbers0_1000.py) :
+## Capri Numbers
+What are Kaprekar Numbers?
+Kaprekar numbers are special numbers for which, when squared, the resulting number can be split into two parts that, when summed, equal the original number.
+ 
+1. [Capri Numbers 0-1000](Math_in_Python/CapriNumbers/CapriNumbers0_1000.py) : This program identifies and displays Kaprekar numbers from 0 to 1000. The is_kaprekar function is used to check if a given number is a Kaprekar number. The function squares the input number, then splits this square into two parts. If the sum of these two parts equals the original number, the function returns True, marking it as a Kaprekar number. The program then collects all such numbers within the specified range and prints them as output.
    
 <details>
 <summary><b>More</b></summary>
 
 
 ## How it works:
-
+1. <b>Square Calculation:</b> The is_kaprekar function calculates the square of the input number 𝑛.
+2. <b>String Conversion:</b> It converts the squared result into a string for easier splitting.
+3. <b>Splitting the Square:</b> The string is divided into two parts, with the right part having the same number of digits as the original number 𝑛. If the left part is empty, it defaults to zero.
+4. <b>Integer Conversion:</b> Both parts are converted back into integers.
+5. <b>Kaprekar Condition Check:</b> The two parts are summed. If their sum matches the original number, then 𝑛 is considered a Kaprekar number.
 
 ## Python Code
 ```python
