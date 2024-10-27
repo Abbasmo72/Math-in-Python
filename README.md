@@ -243,7 +243,7 @@ else:
 
 ## Python Code
 ```python
-def is_kaprekar(n):
+def is_Capri(n):
     # Calculate the square of the number
     square = n ** 2
     str_square = str(square)
@@ -259,12 +259,12 @@ def is_kaprekar(n):
     left_part = int(left_part)
     right_part = int(right_part)
     
-    # Check the Kaprekar condition
+    # Check the Capri condition
     return left_part + right_part == n
 
-# Display Kaprekar numbers from 0 to 1000
-kaprekar_numbers = [n for n in range(1001) if is_kaprekar(n)]
-print("Kaprekar numbers from 0 to 1000:", kaprekar_numbers)
+# Display Capri numbers from 0 to 1000
+Capri_numbers = [n for n in range(1001) if is_Capri(n)]
+print("Kaprekar numbers from 0 to 1000:", Capri_numbers)
 ```
 
 </details>
@@ -281,7 +281,7 @@ print("Kaprekar numbers from 0 to 1000:", kaprekar_numbers)
 
 ## Python Code
 ```python
-def is_kaprekar(n):
+def is_Capri(n):
     # Calculate the square of the number
     square = n ** 2
     str_square = str(square)
@@ -297,16 +297,16 @@ def is_kaprekar(n):
     left_part = int(left_part)
     right_part = int(right_part)
     
-    # Check the Kaprekar condition
+    # Check the Capri condition
     return left_part + right_part == n
 
 # Get user input
 try:
-    number = int(input("Enter a number to check if it is a Kaprekar number: "))
-    if is_kaprekar(number):
-        print(f"{number} is a Kaprekar number.")
+    number = int(input("Enter a number to check if it is a Capri number: "))
+    if is_Capri(number):
+        print(f"{number} is a Capri number.")
     else:
-        print(f"{number} is not a Kaprekar number.")
+        print(f"{number} is not a Capri  number.")
 except ValueError:
     print("Please enter a valid integer.")
 ```
