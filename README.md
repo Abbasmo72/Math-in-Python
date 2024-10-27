@@ -231,11 +231,11 @@ else:
 </details>
 <hr>
 
-## Capri Numbers
+## Kaprekar Numbers
 What are Kaprekar Numbers?
 Kaprekar numbers are special numbers for which, when squared, the resulting number can be split into two parts that, when summed, equal the original number.
  
-1. [Capri Numbers 0-1000](Math_in_Python/CapriNumbers/CapriNumbers0_1000.py) : This program identifies and displays Kaprekar numbers from 0 to 1000. The is_kaprekar function is used to check if a given number is a Kaprekar number. The function squares the input number, then splits this square into two parts. If the sum of these two parts equals the original number, the function returns True, marking it as a Kaprekar number. The program then collects all such numbers within the specified range and prints them as output.
+1. [Kaprekar Numbers 0-1000](Math_in_Python/CapriNumbers/KaprekarNumbers0_1000.py) : This program identifies and displays Kaprekar numbers from 0 to 1000. The is_kaprekar function is used to check if a given number is a Kaprekar number. The function squares the input number, then splits this square into two parts. If the sum of these two parts equals the original number, the function returns True, marking it as a Kaprekar number. The program then collects all such numbers within the specified range and prints them as output.
    
 <details>
 <summary><b>More</b></summary>
@@ -250,7 +250,7 @@ Kaprekar numbers are special numbers for which, when squared, the resulting numb
 
 ## Python Code
 ```python
-def is_Capri(n):
+def is_kaprekar(n):
     # Calculate the square of the number
     square = n ** 2
     str_square = str(square)
@@ -266,29 +266,32 @@ def is_Capri(n):
     left_part = int(left_part)
     right_part = int(right_part)
     
-    # Check the Capri condition
+    # Check the Kaprekar condition
     return left_part + right_part == n
 
-# Display Capri numbers from 0 to 1000
-Capri_numbers = [n for n in range(1001) if is_Capri(n)]
-print("Kaprekar numbers from 0 to 1000:", Capri_numbers)
+# Display Kaprekar numbers from 0 to 1000
+kaprekar_numbers = [n for n in range(1001) if is_kaprekar(n)]
+print("Kaprekar numbers from 0 to 1000:", kaprekar_numbers)
 ```
 
 </details>
 <hr>
 
-2. [Capri Numbers 0-1000](Math_in_Python/CapriNumbers/CapriNumbers_Checker.py) :
+2. [Kaprekar Numbers Checker](Math_in_Python/CapriNumbers/KaprekarNumbers_Checker.py) : This program takes a user input and checks if it is a Kaprekar number. The is_kaprekar function squares the input number, splits the square into two parts, and checks if the sum of these two parts equals the original number. If so, the number is identified as a Kaprekar number, and a corresponding message is displayed. The program also handles invalid inputs by showing an error message if the input is not a valid integer.
 
 <details>
 <summary><b>More</b></summary>
 
-
 ## How it works:
-
+1. <b>Square Calculation:</b> The function squares the input number 𝑛.
+2. <b>String Conversion:</b> It converts the square to a string for easy splitting.
+3. <b>Splitting the Square:</b> The string is split into left and right parts, with the right part having the same number of digits as 𝑛. If the left part is empty, it defaults to zero.
+4. <b>Integer Conversion:</b> Both parts are converted back to integers.
+5. <b>Kaprekar Condition Check:</b> If the sum of the two parts equals 𝑛, the number is confirmed as a Kaprekar number.
 
 ## Python Code
 ```python
-def is_Capri(n):
+def is_kaprekar(n):
     # Calculate the square of the number
     square = n ** 2
     str_square = str(square)
@@ -304,16 +307,16 @@ def is_Capri(n):
     left_part = int(left_part)
     right_part = int(right_part)
     
-    # Check the Capri condition
+    # Check the Kaprekar condition
     return left_part + right_part == n
 
 # Get user input
 try:
-    number = int(input("Enter a number to check if it is a Capri number: "))
-    if is_Capri(number):
-        print(f"{number} is a Capri number.")
+    number = int(input("Enter a number to check if it is a Kaprekar number: "))
+    if is_kaprekar(number):
+        print(f"{number} is a Kaprekar number.")
     else:
-        print(f"{number} is not a Capri  number.")
+        print(f"{number} is not a Kaprekar number.")
 except ValueError:
     print("Please enter a valid integer.")
 ```
