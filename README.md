@@ -277,7 +277,7 @@ print("Kaprekar numbers from 0 to 1000:", kaprekar_numbers)
 </details>
 <hr>
 
-2. [Kaprekar Numbers Checker](Math_in_Python/CKaprekarNumbers/KaprekarNumbers_Checker.py) : This program takes a user input and checks if it is a Kaprekar number. The is_kaprekar function squares the input number, splits the square into two parts, and checks if the sum of these two parts equals the original number. If so, the number is identified as a Kaprekar number, and a corresponding message is displayed. The program also handles invalid inputs by showing an error message if the input is not a valid integer.
+2. [Kaprekar Numbers Checker](Math_in_Python/KaprekarNumbers/KaprekarNumbers_Checker.py) : This program takes a user input and checks if it is a Kaprekar number. The is_kaprekar function squares the input number, splits the square into two parts, and checks if the sum of these two parts equals the original number. If so, the number is identified as a Kaprekar number, and a corresponding message is displayed. The program also handles invalid inputs by showing an error message if the input is not a valid integer.
 
 <details>
 <summary><b>More</b></summary>
