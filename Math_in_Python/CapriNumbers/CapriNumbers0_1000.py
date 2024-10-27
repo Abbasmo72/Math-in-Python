@@ -1,4 +1,4 @@
-def is_kaprekar(n):
+def is_Capri(n):
     # Calculate the square of the number
     square = n ** 2
     str_square = str(square)
@@ -17,6 +17,6 @@ def is_kaprekar(n):
     # Check the Kaprekar condition
     return left_part + right_part == n
 
-# Display Kaprekar numbers from 0 to 1000
-kaprekar_numbers = [n for n in range(1001) if is_kaprekar(n)]
-print("Kaprekar numbers from 0 to 1000:", kaprekar_numbers)
+# Display Capri numbers from 0 to 1000
+Capri_numbers = [n for n in range(1001) if is_Capri(n)]
+print("Capri numbers from 0 to 1000:", Capri_numbers)
