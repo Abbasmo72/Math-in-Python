@@ -324,6 +324,44 @@ except ValueError:
 </details>
 <hr>
 
+## Geometric calculations
+Geometric calculations study and analyze the characteristics of different geometric shapes. These calculations include measuring dimensions, area, perimeter and volume of two-dimensional and three-dimensional shapes. For each geometric shape, there are special formulas that can be used to calculate its properties.
+
+1. [Circle Geometry](Math_in_Python/GeometricCalculations/CircleGeometry.py) : This code calculates the area and circumference of a circle based on its radius in centimeters. It defines a function that takes the radius as input and computes the area and circumference using mathematical formulas. The program then prompts the user to enter the circle's radius. The calculated results, including the area and circumference, are displayed in the console with precision.
+   
+<details>
+<summary><b>More</b></summary>
+
+## How it works:
+1. Importing the Math Module: It uses import math to access mathematical functions.
+2. Defining the Function: The calculate_circle function calculates the area and circumference using the formulas Area=𝜋𝑟2 Area=πr and Circumference=2𝜋𝑟.
+3. Getting User Input: It uses input to get the radius of the circle from the user and converts it to a float.
+4. Calculating and Displaying Results: The function is called to compute the area and circumference, which are then displayed with two decimal places.
+
+## Python Code
+```python
+import math
+
+# Function to calculate the area and circumference of a circle in centimeters
+def calculate_circle(radius_cm):
+    area_cm2 = math.pi * radius_cm ** 2  # Calculate area in square centimeters
+    circumference_cm = 2 * math.pi * radius_cm  # Calculate circumference in centimeters
+    return area_cm2, circumference_cm
+
+# Get the radius from the user in centimeters
+radius_cm = float(input("Enter the radius of the circle in centimeters: "))
+
+# Calculate area and circumference
+area_cm2, circumference_cm = calculate_circle(radius_cm)
+
+# Display the results
+print(f"Area of the circle: {area_cm2:.2f} cm²")  # Display area in square centimeters
+print(f"Circumference of the circle: {circumference_cm:.2f} cm")  # Display circumference in centimeters
+```
+</details>
+<hr>
+
+
 ## License
 
 MIT
