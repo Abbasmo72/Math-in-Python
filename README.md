@@ -394,18 +394,27 @@ print("The perimeter of the rectangle is:", perimeter)
 <details>
 <summary><b>More</b></summary>
 
-
 ## How it works:
-
+1. Get the side length of the square from the user and convert it to a floating-point number.
+2. Calculate the area by squaring the side length.
+3. Calculate the perimeter by multiplying the side length by 4.
+4. Display the calculated area and perimeter.
 
 ## Python Code
 ```python
+# Get the side length of the square from the user
+side = float(input("Enter the side length of the square: "))
 
+# Calculate area and perimeter
+area = side * side
+perimeter = 4 * side
+
+# Display results
+print("The area of the square is:", area)
+print("The perimeter of the square is:", perimeter)
 ```
-
 </details>
-
-
+<hr>
 
 
 
