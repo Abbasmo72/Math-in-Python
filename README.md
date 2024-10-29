@@ -364,7 +364,28 @@ print(f"Circumference of the circle: {circumference_cm:.2f} cm")  # Display circ
 1. [Rectangle Calculator](Math_in_Python/GeometricCalculations/RectangleCalculator.py) : 
 Explanation in English: This code prompts the user to input the length and width of a rectangle. It then calculates the area by multiplying the length by the width and the perimeter by doubling the sum of the length and width. After performing these calculations, it displays the calculated area and perimeter values back to the user.
 
+<details>
+<summary><b>More</b></summary>
 
+## How it works:
+
+
+## Python Code
+```python
+# Get length and width from the user
+length = float(input("Enter the rectangle's length: "))
+width = float(input("Enter the rectangle's width: "))
+
+# Calculate area and perimeter
+area = length * width
+perimeter = 2 * (length + width)
+
+# Display results
+print("The area of the rectangle is:", area)
+print("The perimeter of the rectangle is:", perimeter)
+```
+
+</details>
 
 ## License
 
