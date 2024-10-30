@@ -160,24 +160,23 @@ else:
 </details>
 <hr>
 
-## Fibonacci Sequence
-1. [Fibonacci Sequence 0-1000](Math_in_Python/FibonacciSequence/fibonacci_up_to_1000.py) : The Fibonacci sequence is a series of numbers in which each number is the sum of the two preceding ones, starting from 0 and 1. It goes like this: 0, 1, 1, 2, 3, 5, 8, and so on. This sequence has a wide range of applications in mathematics, computer science, biology, and even art, due to its appearance in various natural patterns and structures. The sequence is named after Italian mathematician Leonardo Fibonacci, who introduced it to Western mathematics in his 13th-century book Liber Abaci. Each number in the sequence is called a "Fibonacci number," and these numbers have unique mathematical properties.
+## دنباله فیبوناچی
+1. [دنباله فیبوناچی بین 0-1000](Math_in_Python/FibonacciSequence/fibonacci_up_to_1000.py) : دنباله فیبوناچی مجموعه‌ای از اعداد است که در آن هر عدد حاصل جمع دو عدد قبلی است که از 0 و 1 شروع می‌شود. این دنباله به دلیل ظاهر در الگوها و ساختارهای مختلف طبیعی، کاربردهای گسترده ای در ریاضیات، علوم کامپیوتر، زیست شناسی و حتی هنر دارد. این دنباله از نام ریاضیدان ایتالیایی لئوناردو فیبوناچی نامگذاری شده است که در کتاب قرن سیزدهم خود Liber Abaci آن را به ریاضیات غربی معرفی کرد. هر عدد در این دنباله، "عدد فیبوناچی" نامیده می شود و این اعداد دارای ویژگی های ریاضی منحصر به فردی هستند.
 
 <details>
-<summary><b>More</b></summary>
+<summary><b>بیشتر</b></summary>
   
-## The History and Significance of Fibonacci Numbers
+## تاریخچه و اهمیت اعداد فیبوناچی
+تاریخچه اعداد فیبوناچی به قرن سیزدهم باز می گردد، زمانی که یک ریاضیدان ایتالیایی به نام لئوناردو فیبوناچی این دنباله را در کتاب معروف خود Liber Abaci معرفی کرد. فیبوناچی در این کتاب از این دنباله برای حل مشکل مربوط به رشد جمعیت خرگوش ها استفاده کرد. در این دنباله، هر عدد حاصل جمع دو عدد قبلی است که از 0 و 1 شروع می شود. این سری به صورت زیر پیش می رود: 0، 1، 1، 2، 3، 5، 8 و غیره. با گذشت زمان، اهمیت دنباله فیبوناچی به دلیل کاربردهای آن در الگوهای طبیعی و تشکیلات بیولوژیکی به طور گسترده ای شناخته شد. الگوهایی مانند نسبت طلایی در گیاهان، حیوانات و حتی کهکشان‌ها با دنباله فیبوناچی مطابقت دارند و فیبوناچی و دنباله او را به بخشی اساسی از تاریخ ریاضی تبدیل می‌کنند. این توالی همچنین بر زمینه هایی مانند معماری، موسیقی و هنر تأثیر گذاشته و به عنوان یک چارچوب ساختاری و هندسی اساسی در جهان عمل می کند.
 
-The history of Fibonacci numbers dates back to the 13th century when an Italian mathematician named Leonardo Fibonacci introduced this sequence in his famous book Liber Abaci. In the book, Fibonacci used the sequence to solve a problem related to the population growth of rabbits. In this sequence, each number is the sum of the two preceding ones, starting from 0 and 1. The series progresses as follows: 0, 1, 1, 2, 3, 5, 8, and so on. Over time, the significance of the Fibonacci sequence became widely recognized due to its applications in natural patterns and biological formations. Patterns like the golden ratio in plants, animals, and even galaxies correspond with the Fibonacci sequence, making Fibonacci and his sequence a fundamental part of mathematical history. This sequence has also influenced fields like architecture, music, and art, serving as a foundational structural and geometric framework in the world.
+## چگونه کار می کند:
+1. <b>تعریف تابع:</b> fibonacci_up_to_1000() برای تولید اعداد فیبوناچی تا 1000 تعریف شده است.
+2. <b>مقادیر اولیه:</b> در داخل تابع، دو عدد اول دنباله فیبوناچی، a به صورت 0 و b به عنوان 1 تنظیم شده است.
+3. <b>اجرای حلقه:</b> حلقه while تا زمانی اجرا می شود که a کمتر یا مساوی 1000 باشد. در داخل حلقه، مقدار فعلی a را که یک عدد فیبوناچی است چاپ می کند.
+4. <b>به روز رسانی متغیرها:</b> پس از هر چاپ، مقادیر a و b به روز می شوند تا با تنظیم a به b و b به a + b به عدد فیبوناچی بعدی منتقل شوند.
+5. <b> فراخوانی تابع:</b> فراخوانی fibonacci_up_to_1000() حلقه را اجرا می کند و همه اعداد فیبوناچی از 0 تا 1000 را در یک خط به خروجی می دهد.
 
-## How it works:
-1. <b>Function Definition:</b> fibonacci_up_to_1000() is defined to generate Fibonacci numbers up to 1000.
-2. <b>Initial Values:</b> Inside the function, the first two numbers of the Fibonacci sequence are set, a as 0 and b as 1.
-3. <b>Loop Execution:</b> The while loop runs as long as a is less than or equal to 1000. Within the loop, it prints the current value of a, which is a Fibonacci number.
-4. <b>Update of Variables:</b> After each print, the values of a and b are updated to move to the next Fibonacci number by setting a to b and b to a + b.
-5. <b>Function Call:</b> Calling fibonacci_up_to_1000() runs the loop and outputs all Fibonacci numbers from 0 up to 1000 in a single line.
-
-## Python Code
+## کد پایتون
 ```python
 # Define the function to generate Fibonacci sequence up to 1000
 def fibonacci_up_to_1000():
@@ -193,20 +192,20 @@ fibonacci_up_to_1000()
 </details>
 <hr>
 
-2. [Fibonacci Check](Math_in_Python/FibonacciSequence/fibonacci_checker.py) : The code above is a simple program to check if a number is a Fibonacci number. It defines a function, is_perfect_square, which checks if a given number is a perfect square. This is useful for identifying Fibonacci numbers because of a specific mathematical property they hold. The main function, is_fibonacci, then uses a "Fibonacci condition" to determine if the input number is a Fibonacci number. According to this condition, a number n is a Fibonacci number if either 5 * n * n + 4 or 5 * n * n - 4 is a perfect square. Finally, the program prompts the user to input a number, and it uses the is_fibonacci function to display whether or not the number is part of the Fibonacci sequence.
+2. [چک کردن عدد فیبوناچی](Math_in_Python/FibonacciSequence/fibonacci_checker.py) : کد بالا یک برنامه ساده برای بررسی اینکه آیا یک عدد یک عدد فیبوناچی است یا خیر است. تابع is_perfect_square را تعریف می کند که بررسی می کند آیا یک عدد معین مربع کامل است یا خیر. این برای شناسایی اعداد فیبوناچی به دلیل خاصیت ریاضی خاصی که دارند مفید است. تابع اصلی، is_fibonacci، سپس از یک "شرط فیبوناچی" برای تعیین اینکه آیا عدد ورودی یک عدد فیبوناچی است استفاده می کند. طبق این شرط، اگر 5 * n * n + 4 یا 5 * n * n - 4 یک مربع کامل باشد، یک عدد n یک عدد فیبوناچی است. در نهایت، برنامه از کاربر می خواهد که یک عدد را وارد کند و از تابع is_fibonacci برای نشان دادن اینکه آیا این عدد بخشی از دنباله فیبوناچی است یا خیر استفاده می کند.
 
 <details>
-<summary><b>More</b></summary>
+<summary><b>بیشتر</b></summary>
 
-This process efficiently confirms Fibonacci membership without needing to generate a sequence up to the number.
+این فرآیند به طور موثر عضویت فیبوناچی را بدون نیاز به ایجاد یک دنباله تا عدد تایید می کند.
 
-## How it works:
-1. <b>Check if a Number is a Perfect Square:</b> The function is_perfect_square checks if a number is a perfect square by taking the square root of x, converting it to an integer, and checking if squaring this integer gives back the original number x. If it does, x is a perfect square.
-2. <b>Determine if a Number is Fibonacci:</b> The function is_fibonacci determines whether a number n is a Fibonacci number. It uses a mathematical property where a number n is in the Fibonacci sequence if either 5 * n * n + 4 or 5 * n * n - 4 is a perfect square. This condition is derived from mathematical characteristics unique to Fibonacci numbers.
-3. <b>User Input:</b> The program prompts the user to enter a number for testing, storing it as num.
-4. <b>Check and Display Result:</b> Finally, the program checks if num is a Fibonacci number using the is_fibonacci function. It then prints the result, confirming whether num is or is not a Fibonacci number based on the function's output.
+## چگونه کار می کند:
+1. <b>بررسی اینکه آیا یک عدد مربع کامل است:</b> تابع is_perfect_square با گرفتن جذر x، تبدیل آن به یک عدد صحیح، و بررسی اینکه آیا مربع کردن این عدد صحیح، این عدد را برمی‌گرداند، بررسی می‌کند که آیا یک عدد مربع کامل است یا خیر. شماره اصلی x اگر اینطور باشد، x یک مربع کامل است.
+2. <b>تعیین کنید یک عدد فیبوناچی است:</b> تابع is_fibonacci تعیین می کند که آیا عدد n یک عدد فیبوناچی است یا خیر. اگر 5 * n * n + 4 یا 5 * n * n - 4 یک مربع کامل باشد، از یک ویژگی ریاضی استفاده می کند که در آن یک عدد n در دنباله فیبوناچی است. این شرط از ویژگی های ریاضی منحصر به فرد اعداد فیبوناچی مشتق شده است.
+3. <b>ورودی کاربر:</b> برنامه از کاربر می‌خواهد شماره‌ای را برای آزمایش وارد کند و آن را به‌عنوان num ذخیره کند.
+4. <b>بررسی و نمایش نتیجه:</b> در نهایت، برنامه با استفاده از تابع is_fibonacci بررسی می کند که آیا num یک عدد فیبوناچی است یا خیر. سپس نتیجه را چاپ می کند و تأیید می کند که num یک عدد فیبوناچی است یا نه بر اساس خروجی تابع.
 
-## Python Code
+## کد پایتون
 ```python
 import math
 
@@ -233,24 +232,23 @@ else:
 </details>
 <hr>
 
-## Kaprekar Numbers
-What are Kaprekar Numbers?
-Kaprekar numbers are special numbers for which, when squared, the resulting number can be split into two parts that, when summed, equal the original number.
+## شماره های کاپرکار
+اعداد کاپرکار چیست؟اعداد کاپرکار اعداد خاصی هستند که با مجذور شدن آنها، عدد حاصل را می توان به دو قسمت تقسیم کرد که در صورت جمع، برابر با عدد اصلی است.
  
-1. [Kaprekar Numbers 0-1000](Math_in_Python/KaprekarNumbers/KaprekarNumbers0_1000.py) : This program identifies and displays Kaprekar numbers from 0 to 1000. The is_kaprekar function is used to check if a given number is a Kaprekar number. The function squares the input number, then splits this square into two parts. If the sum of these two parts equals the original number, the function returns True, marking it as a Kaprekar number. The program then collects all such numbers within the specified range and prints them as output.
+1. [شماره های کاپرکار بین 0-1000](Math_in_Python/KaprekarNumbers/KaprekarNumbers0_1000.py) : این برنامه اعداد Kaprekar را از 0 تا 1000 شناسایی و نمایش می دهد. تابع is_kaprekar برای بررسی اینکه آیا یک عدد داده شده یک عدد Kaprekar است یا خیر استفاده می شود. تابع عدد ورودی را مربع می کند، سپس این مربع را به دو قسمت تقسیم می کند. اگر مجموع این دو قسمت برابر با عدد اصلی باشد، تابع True را برمی‌گرداند و آن را به‌عنوان عدد کاپرکار علامت‌گذاری می‌کند. سپس برنامه تمام این اعداد را در محدوده مشخص شده جمع آوری کرده و آنها را به عنوان خروجی چاپ می کند.
    
 <details>
-<summary><b>More</b></summary>
+<summary><b>بیشتر</b></summary>
 
 
-## How it works:
-1. <b>Square Calculation:</b> The is_kaprekar function calculates the square of the input number 𝑛.
-2. <b>String Conversion:</b> It converts the squared result into a string for easier splitting.
-3. <b>Splitting the Square:</b> The string is divided into two parts, with the right part having the same number of digits as the original number 𝑛. If the left part is empty, it defaults to zero.
-4. <b>Integer Conversion:</b> Both parts are converted back into integers.
-5. <b>Kaprekar Condition Check:</b> The two parts are summed. If their sum matches the original number, then 𝑛 is considered a Kaprekar number.
+## چگونه کار می کند:
+1. <b>محاسبه مربع:</b> تابع is_kaprekar مربع عدد ورودی 𝑛 را محاسبه می کند.
+2. <b>تبدیل رشته:</b> نتیجه مربع را به یک رشته برای تقسیم آسان تر تبدیل می کند.
+3. <b>تقسیم مربع:</b> رشته به دو قسمت تقسیم می‌شود که قسمت سمت راست تعداد ارقامی برابر با عدد اصلی دارد. اگر قسمت سمت چپ خالی باشد، به طور پیش فرض صفر می شود.
+4. <b>تبدیل عدد صحیح:</b> هر دو بخش دوباره به اعداد صحیح تبدیل می‌شوند.
+5. <b>بررسی وضعیت کاپرکار:</b> این دو بخش خلاصه شده اند. اگر مجموع آنها با عدد اصلی مطابقت داشته باشد، آنگاه 𝑛 یک عدد کاپرکار در نظر گرفته می شود.
 
-## Python Code
+## کد پایتون
 ```python
 def is_kaprekar(n):
     # Calculate the square of the number
@@ -279,19 +277,19 @@ print("Kaprekar numbers from 0 to 1000:", kaprekar_numbers)
 </details>
 <hr>
 
-2. [Kaprekar Numbers Checker](Math_in_Python/KaprekarNumbers/KaprekarNumbers_Checker.py) : This program takes a user input and checks if it is a Kaprekar number. The is_kaprekar function squares the input number, splits the square into two parts, and checks if the sum of these two parts equals the original number. If so, the number is identified as a Kaprekar number, and a corresponding message is displayed. The program also handles invalid inputs by showing an error message if the input is not a valid integer.
+2. [جستجوگر اعداد کاپرکار](Math_in_Python/KaprekarNumbers/KaprekarNumbers_Checker.py) : این برنامه یک ورودی کاربر را می گیرد و بررسی می کند که آیا شماره Kaprekar است یا خیر. تابع is_kaprekar عدد ورودی را مربع می کند، مربع را به دو قسمت تقسیم می کند و بررسی می کند که آیا مجموع این دو قسمت با عدد اصلی برابر است یا خیر. در این صورت، شماره به عنوان یک شماره Kaprekar شناسایی می شود و پیام مربوطه نمایش داده می شود. این برنامه همچنین ورودی های نامعتبر را با نشان دادن یک پیام خطا در صورتی که ورودی یک عدد صحیح معتبر نباشد، کنترل می کند.
 
 <details>
-<summary><b>More</b></summary>
+<summary><b>بیشتر</b></summary>
 
-## How it works:
-1. <b>Square Calculation:</b> The function squares the input number 𝑛.
-2. <b>String Conversion:</b> It converts the square to a string for easy splitting.
-3. <b>Splitting the Square:</b> The string is split into left and right parts, with the right part having the same number of digits as 𝑛. If the left part is empty, it defaults to zero.
-4. <b>Integer Conversion:</b> Both parts are converted back to integers.
-5. <b>Kaprekar Condition Check:</b> If the sum of the two parts equals 𝑛, the number is confirmed as a Kaprekar number.
+## چگونه کار می کند:
+1. <b>محاسبه مربع:</b> تابع عدد ورودی 𝑛 را مربع می کند.
+2. <b>تبدیل رشته:</b> مربع را به یک رشته برای تقسیم آسان تبدیل می کند.
+3. <b>تقسیم مربع:</b> رشته به دو قسمت چپ و راست تقسیم می‌شود و قسمت راست دارای تعداد ارقام برابر با 𝑛 است. اگر قسمت سمت چپ خالی باشد، به طور پیش فرض صفر می شود.
+4. <b>تبدیل عدد صحیح:</b> هر دو بخش به اعداد صحیح تبدیل می‌شوند.
+5. <b>بررسی وضعیت کاپرکار:</b> اگر مجموع دو قسمت برابر با 𝑛 باشد، عدد به عنوان عدد کاپرکار تایید می شود.
 
-## Python Code
+## کد پایتون
 ```python
 def is_kaprekar(n):
     # Calculate the square of the number
@@ -326,21 +324,21 @@ except ValueError:
 </details>
 <hr>
 
-## Geometric calculations
-Geometric calculations study and analyze the characteristics of different geometric shapes. These calculations include measuring dimensions, area, perimeter and volume of two-dimensional and three-dimensional shapes. For each geometric shape, there are special formulas that can be used to calculate its properties.
+## محاسبات هندسی
+محاسبات هندسی ویژگی های اشکال هندسی مختلف را مطالعه و تحلیل می کند. این محاسبات شامل اندازه گیری ابعاد، مساحت، محیط و حجم اشکال دو بعدی و سه بعدی می باشد. برای هر شکل هندسی، فرمول های خاصی وجود دارد که می توان از آنها برای محاسبه خواص آن استفاده کرد.
 
-1. [Circle Geometry](Math_in_Python/GeometricCalculations/CircleGeometry.py) : This code calculates the area and circumference of a circle based on its radius in centimeters. It defines a function that takes the radius as input and computes the area and circumference using mathematical formulas. The program then prompts the user to enter the circle's radius. The calculated results, including the area and circumference, are displayed in the console with precision.
+1. [هندسه دایره](Math_in_Python/GeometricCalculations/CircleGeometry.py) : این کد مساحت و محیط دایره را بر اساس شعاع آن بر حسب سانتی متر محاسبه می کند. تابعی را تعریف می کند که شعاع را به عنوان ورودی می گیرد و مساحت و محیط را با استفاده از فرمول های ریاضی محاسبه می کند. سپس برنامه از کاربر می خواهد که شعاع دایره را وارد کند. نتایج محاسبه شده شامل مساحت و محیط با دقت در کنسول نمایش داده می شود.
    
 <details>
-<summary><b>More</b></summary>
+<summary><b>بیشتر</b></summary>
 
-## How it works:
-1. Importing the Math Module: It uses import math to access mathematical functions.
-2. Defining the Function: The calculate_circle function calculates the area and circumference using the formulas Area=𝜋𝑟2 Area=πr and Circumference=2𝜋𝑟.
-3. Getting User Input: It uses input to get the radius of the circle from the user and converts it to a float.
-4. Calculating and Displaying Results: The function is called to compute the area and circumference, which are then displayed with two decimal places.
+## چگونه کار می کند:
+1. وارد کردن ماژول ریاضی: از ریاضی واردات برای دسترسی به توابع ریاضی استفاده می کند.
+2. تعریف تابع: تابع account_circle مساحت و محیط را با استفاده از فرمول Area=𝜋𝑟2 Area=πr و Circumference=2𝜋𝑟 محاسبه می کند.
+3. دریافت ورودی کاربر: از ورودی برای دریافت شعاع دایره از کاربر استفاده می کند و آن را به یک شناور تبدیل می کند.
+4. محاسبه و نمایش نتایج: تابع برای محاسبه مساحت و محیط فراخوانی می شود که سپس با دو رقم اعشار نمایش داده می شود.
 
-## Python Code
+## کد پایتون
 ```python
 import math
 
@@ -363,18 +361,18 @@ print(f"Circumference of the circle: {circumference_cm:.2f} cm")  # Display circ
 </details>
 <hr>
 
-2. [Rectangle Calculator](Math_in_Python/GeometricCalculations/RectangleCalculator.py) : Explanation in English: This code prompts the user to input the length and width of a rectangle. It then calculates the area by multiplying the length by the width and the perimeter by doubling the sum of the length and width. After performing these calculations, it displays the calculated area and perimeter values back to the user.
+2. [ماشین حساب مستطیل](Math_in_Python/GeometricCalculations/RectangleCalculator.py) :توضیح به زبان انگلیسی: این کد از کاربر می خواهد که طول و عرض یک مستطیل را وارد کند. سپس مساحت را با ضرب طول در عرض و محیط با دو برابر کردن مجموع طول و عرض محاسبه می کند. پس از انجام این محاسبات، مقادیر مساحت و محیط محاسبه شده را به کاربر نمایش می دهد.
 
 <details>
-<summary><b>More</b></summary>
+<summary><b>بیشتر</b></summary>
 
 ## How it works:
-1. Get the length and width from the user and convert them to floating-point numbers.
-2. Calculate the area by multiplying the length by the width.
-3. Calculate the perimeter using the formula 2×(𝑙𝑒𝑛𝑔𝑡ℎ+𝑤𝑖𝑑𝑡ℎ)2×(length+width).
-4. Display the calculated area and perimeter.
+1. طول و عرض را از کاربر دریافت کنید و آنها را به اعداد ممیز شناور تبدیل کنید.
+2. مساحت را با ضرب طول در عرض محاسبه کنید.
+3. محیط را با استفاده از فرمول 2×(𝑙𝑒𝑛𝑔𝑡ℎ+𝑤𝑖𝑑𝑡ℎ)2×(طول+عرض) محاسبه کنید.
+4. نمایش مساحت و محیط محاسبه شده
 
-## Python Code
+## کد پایتون
 ```python
 # Get length and width from the user
 length = float(input("Enter the rectangle's length: "))
@@ -391,18 +389,18 @@ print("The perimeter of the rectangle is:", perimeter)
 </details>
 <hr>
 
-3. [Square Calculator](Math_in_Python/GeometricCalculations/SquareCalculator.py) : This code prompts the user to enter the side length of a square and converts it to a floating-point number. It then calculates the area by squaring the side length and finds the perimeter by multiplying the side length by 4. Finally, it displays the calculated area and perimeter to the user.
+3. [محاسبه مربعr](Math_in_Python/GeometricCalculations/SquareCalculator.py) : این کد از کاربر می خواهد که طول ضلع مربع را وارد کرده و آن را به یک عدد ممیز شناور تبدیل می کند. سپس مساحت را با مجذور کردن طول ضلع محاسبه می کند و با ضرب طول ضلع در 4 محیط را پیدا می کند. در نهایت مساحت و محیط محاسبه شده را به کاربر نمایش می دهد.
 
 <details>
-<summary><b>More</b></summary>
+<summary><b>بیشتر</b></summary>
 
-## How it works:
-1. Get the side length of the square from the user and convert it to a floating-point number.
-2. Calculate the area by squaring the side length.
-3. Calculate the perimeter by multiplying the side length by 4.
-4. Display the calculated area and perimeter.
+## چگونه کار می کند:
+1. طول ضلع مربع را از کاربر دریافت کنید و آن را به عدد ممیز شناور تبدیل کنید.
+2. مساحت را با مجذور کردن طول ضلع محاسبه کنید.
+3. محیط را با ضرب طول ضلع در 4 محاسبه کنید.
+4. نمایش مساحت و محیط محاسبه شده
 
-## Python Code
+## کد پایون
 ```python
 # Get the side length of the square from the user
 side = float(input("Enter the side length of the square: "))
