@@ -8,7 +8,7 @@
 
 link to read me
 <hr>
-ریاضیات در پایتون نقش مهمی در محاسبات و حل مسائل علمی یا مهندسی دارد. پایتون توابع و کتابخانه های داخلی را فراهم می کند که انجام طیف گسترده ای از عملیات ریاضی را از محاسبات اولیه تا محاسبات پیچیده تر آسان می کند. برای عملیات ساده، می توان از عملگرهای رایج مانند جمع، تفریق، ضرب و تقسیم استفاده کرد. علاوه بر این، پایتون دارای کتابخانه هایی مانند ریاضی برای توابع ریاضی عمومی، numpy برای عملیات بردار و ماتریس، و scipy برای محاسبات علمی پیشرفته است. این قابلیت‌ها به‌طور گسترده در زمینه‌هایی مانند تجزیه و تحلیل داده‌ها، یادگیری ماشین و مدل‌سازی مورد استفاده قرار می‌گیرند و به دلیل سادگی و قدرت محاسباتی پایتون را به ابزاری مورد علاقه در میان دانشمندان و مهندسان داده تبدیل می‌کنند.
+ریاضیات در پایتون نقش مهمی در محاسبات و حل مسائل علمی یا مهندسی دارد. پایتون توابع و کتابخانه های داخلی را فراهم می کند که انجام طیف گسترده ای از عملیات ریاضی را از محاسبات اولیه تا محاسبات پیچیده تر آسان می کند. برای عملیات ساده، می توان از عملگرهای رایج مانند جمع، تفریق، ضرب و تقسیم استفاده کرد. علاوه بر این، پایتون دارای کتابخانه هایی مانند ریاضی برای توابع ریاضی عمومی، numpy برای عملیات بردار و ماتریس، و scipy برای محاسبات علمی پیشرفته است. این قابلیت‌ها به‌طور گسترده در زمینه‌هایی مانند تجزیه و تحلیل داده‌ها، یادگیری ماشین و مدل‌سازی مورد استفاده قرار می‌گیرند و به دلیل سادگی و قدرت محاسباتی پایتون را به ابزاری مورد علاقه در میان دانشمندان و مهندسان داده تبدیل می‌کنند .
 
 ## کتابخانه های مرتبط با ریاضی را نصب کنید
 
@@ -124,21 +124,20 @@ list_primes()
 ```
 </details>
 
-2. [Prime Numbers Checker](Math_in_Python/PrimeNumbers/Prime_Checker.py) : A prime number is a natural number greater than 1 that has only two divisors: 1 and itself. In other words, a prime number is divisible only by 1 and itself and cannot be expressed as the product of two smaller numbers. Prime numbers are crucial in number theory and have modern applications in fields like cryptography. Examples of prime numbers include 2, 3, 5, and 7. These numbers are often referred to as the "building blocks" of all natural numbers due to their unique properties.
+2. [چک کردن عدد اول](Math_in_Python/PrimeNumbers/Prime_Checker.py) : عدد اول یک عدد طبیعی بزرگتر از 1 است که فقط دو مقسوم علیه دارد: 1 و خودش. به عبارت دیگر، یک عدد اول فقط بر 1 و خودش بخش پذیر است و نمی توان آن را به صورت حاصل ضرب دو عدد کوچکتر بیان کرد. اعداد اول در نظریه اعداد بسیار مهم هستند و کاربردهای مدرنی در زمینه هایی مانند رمزنگاری دارند. نمونه هایی از اعداد اول عبارتند از 2، 3، 5 و 7. این اعداد به دلیل ویژگی های منحصر به فردشان اغلب به عنوان "بلوک های سازنده" همه اعداد طبیعی شناخته می شوند.
 <details>
-<summary><b>More</b></summary>
+<summary><b>بیشتر</b></summary>
 
-This code defines a function called ispraime that checks whether a number is prime. The function first checks if the input number is less than or equal to 1, in which case it returns False because numbers less than 2 are not prime. Then, it uses a for loop to check all divisors from 2 to one less than the number. If the number is divisible by any of these values, it is not prime, and the function returns False. If no divisors are found, the function returns True, indicating the number is prime.
+این کد تابعی به نام ispraime را تعریف می کند که اول بودن یک عدد را بررسی می کند. تابع ابتدا بررسی می کند که عدد ورودی کمتر یا مساوی 1 باشد، در این صورت False را برمی گرداند زیرا اعداد کوچکتر از 2 اول نیستند. سپس از یک حلقه for برای بررسی همه مقسوم‌کننده‌ها از 2 تا یک کمتر از عدد استفاده می‌کند. اگر عدد بر هر یک از این مقادیر بخش پذیر باشد، عدد اول نیست و تابع False را برمی گرداند. اگر مقسوم‌کننده‌ای پیدا نشد، تابع True را برمی‌گرداند که عدد اول را نشان می‌دهد.
+در مرحله بعد، برنامه یک ورودی از کاربر می گیرد و آن را به تابع ispraime ارسال می کند. اگر عدد اول باشد، "prime" را چاپ می کند. در غیر این صورت، "not prime" را چاپ می کند.
 
-Next, the program takes an input from the user and passes it to the ispraime function. If the number is prime, it prints "prime"; otherwise, it prints "not prime."
+## چگونه کار می کند:
+1. تابع یک عدد دریافت می کند.
+2. اگر عدد کمتر از 2 باشد، عدد اول نیست.
+3. برای اعداد بزرگتر از 1، بررسی می کند که آیا عدد بر هر عددی بین 2 و خودش منهای یک بخش پذیر است یا خیر.
+4. اگر قابل بخش باشد، عدد اول نیست. در غیر این صورت، آن را اول است.
 
-## How it works:
-1. The function receives a number.
-2. If the number is less than 2, it is not prime.
-3. For numbers greater than 1, it checks if the number is divisible by any number between 2 and itself minus one.
-4. If divisible, the number is not prime; otherwise, it is prime.
-
-## Python Code
+## کد پایتون
 ```python
 def isprime(n):
     if n <= 1:
