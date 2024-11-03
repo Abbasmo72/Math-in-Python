@@ -416,8 +416,45 @@ print("The perimeter of the square is:", perimeter)
 </details>
 <hr>
 
+## میانگین اعداد
+[ کد میانگین اعداد ](Math_in_Python/AverageNumbers/Average.py) : میانگین‌گیری فرآیندی است که در آن، برای به‌دست آوردن یک مقدار مرکزی از مجموعه‌ای از داده‌ها، اعداد را با هم جمع کرده و حاصل را بر تعداد آن‌ها تقسیم می‌کنیم. میانگین به‌عنوان شاخصی برای درک و خلاصه‌کردن اطلاعات آماری کاربرد زیادی دارد و در تحلیل‌های داده‌ها استفاده می‌شود. این مفهوم در علوم مختلف، از جمله اقتصاد، علوم اجتماعی، و مهندسی اهمیت دارد. میانگین‌ها به انواع مختلفی تقسیم می‌شوند، از جمله میانگین حسابی، میانگین وزنی و میانگین هندسی که هر کدام در شرایط خاصی کاربرد دارند.
 
+<details>
+<summary><b>بیشتر</b></summary>
 
+## چگونه کار می کند:
+
+1. تعریف و مقداردهی متغیرها: دو متغیر count برای شمارش تعداد اعداد و sum برای جمع کل اعداد ورودی تعریف و صفر می‌شوند.
+2. گرفتن اعداد از کاربر: در یک حلقه، از کاربر عدد می‌گیرد و اگر عدد وارد شده -1 نباشد:
+   - در count را یک واحد افزایش می‌دهد،
+   - عدد را به sum اضافه می‌کند.
+3. پایان حلقه و محاسبه میانگین: با وارد کردن -1 حلقه متوقف شده، میانگین با تقسیم sum بر count محاسبه می‌شود.
+4. نمایش نتیجه: تعداد اعداد، مجموع آن‌ها و میانگین محاسبه شده نمایش داده می‌شود.
+
+## کد پایتون
+```python
+import time
+count = 0
+sum = 0
+
+print('''The program will take numbers from you until you type -1 
+It calculates the number of numbers as well as the sum of the numbers and 
+finally the average of the numbers.''')
+
+time.sleep(1)
+numbers = int(input('Enter Your Number : '))
+while numbers != -1:
+    count += 1
+    sum += numbers
+    numbers = int(input('Enter Your Number : '))
+average = sum / count
+time.sleep(1.5)
+print(f'Number of numbers entered {count}')
+print(f'The sum of the entered numbers {sum}')
+print(f'The average of the entered numbers {average}')
+```
+</details>
+<hr>
 
 ## License
 
