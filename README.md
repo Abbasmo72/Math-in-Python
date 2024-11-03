@@ -455,9 +455,8 @@ print(f'Number of numbers entered {count}')
 print(f'The sum of the entered numbers {sum}')
 print(f'The average of the entered numbers {average}')
 ```
-
+</details>
 <hr>
-
 
 
 ## License
