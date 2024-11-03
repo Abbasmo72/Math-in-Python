@@ -419,6 +419,44 @@ print("The perimeter of the square is:", perimeter)
 </details>
 <hr>
 
+### Averag Numbers
+[Square Calculator](Math_in_Python/GeometricCalculations/SquareCalculator.py) : Averaging is a process in which a central value is obtained from a set of data by summing the numbers and dividing the result by the count of values. The mean serves as an indicator to understand and summarize statistical information, making it highly useful in data analysis. This concept is important across various fields, including economics, social sciences, and engineering. There are different types of averages, such as arithmetic mean, weighted mean, and geometric mean, each used in specific contexts.
+
+<details>
+<summary><b>More</b></summary>
+
+## How it works:
+1. <b>Defining and Initializing Variables:</b> Two variables are defined: count to keep track of the number of inputs and sum to store the total sum of numbers. Both are initially set to zero.
+2. <b>Getting Numbers from the User:</b> In a loop, the program prompts the user to enter a number. If the entered number isn’t -1:
+   - It increments count by one,
+   - Adds the number to sum.
+3. <b>Ending the Loop and Calculating the Average:</b> When the user enters -1, the loop stops, and the program calculates the average by dividing sum by count.
+4. <b>Displaying the Result:</b> The program then displays the total count, the sum, and the calculated average.
+
+## Python Code
+```python
+import time
+count = 0
+sum = 0
+
+print('''The program will take numbers from you until you type -1 
+It calculates the number of numbers as well as the sum of the numbers and 
+finally the average of the numbers.''')
+
+time.sleep(1)
+numbers = int(input('Enter Your Number : '))
+while numbers != -1:
+    count += 1
+    sum += numbers
+    numbers = int(input('Enter Your Number : '))
+average = sum / count
+time.sleep(1.5)
+print(f'Number of numbers entered {count}')
+print(f'The sum of the entered numbers {sum}')
+print(f'The average of the entered numbers {average}')
+```
+
+<hr>
 
 
 
