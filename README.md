@@ -420,7 +420,7 @@ print("The perimeter of the square is:", perimeter)
 <hr>
 
 ### Averag Numbers
-[Square Calculator](Math_in_Python/GeometricCalculations/SquareCalculator.py) : Averaging is a process in which a central value is obtained from a set of data by summing the numbers and dividing the result by the count of values. The mean serves as an indicator to understand and summarize statistical information, making it highly useful in data analysis. This concept is important across various fields, including economics, social sciences, and engineering. There are different types of averages, such as arithmetic mean, weighted mean, and geometric mean, each used in specific contexts.
+[Averag Number Code](Math_in_Python/AverageNumbers/Average.py) : Averaging is a process in which a central value is obtained from a set of data by summing the numbers and dividing the result by the count of values. The mean serves as an indicator to understand and summarize statistical information, making it highly useful in data analysis. This concept is important across various fields, including economics, social sciences, and engineering. There are different types of averages, such as arithmetic mean, weighted mean, and geometric mean, each used in specific contexts.
 
 <details>
 <summary><b>More</b></summary>
